@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jothiga | Full-Stack Developer & Designer</title>
+    <meta name="description" content="Portfolio of Jothiga - Full-Stack Developer and UI/UX Designer crafting digital experiences with beautiful design and powerful functionality.">
+    <meta name="author" content="Jothiga">
+    <meta name="keywords" content="developer, designer, portfolio, react, typescript, web development">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="site-nav" id="navbar">
+        <div class="custom-container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">J<span>.</span></a>
+                <div class="nav-menu">
+                    <a href="#profile" class="nav-item">About</a>
+                    <a href="#services" class="nav-item">Services</a>
+                    <a href="#expertise" class="nav-item">Skills</a>
+                    <a href="#portfolio" class="nav-item">Projects</a>
+                    <a href="#reviews" class="nav-item">Testimonials</a>
+                    <a href="#connect" class="nav-item">Contact</a>
+                    <button class="primary-btn small-btn">Hire Me</button>
+                </div>
+                <button class="menu-toggle" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav" id="mobileMenu">
+        <a href="#profile">About</a>
+        <a href="#services">Services</a>
+        <a href="#expertise">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#reviews">Testimonials</a>
+        <a href="#connect">Contact</a>
+    </div>
+
+    <!-- Intro Section -->
+    <section class="intro" id="intro">
+        <div class="intro-bg">
+            <div class="intro-grad1"></div>
+            <div class="intro-grad2"></div>
+            <div class="floating-orb intro-orb1"></div>
+            <div class="floating-orb intro-orb2"></div>
+            <div class="floating-orb intro-orb3"></div>
+        </div>
+        <div class="custom-container">
+            <div class="intro-content">
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Available for work</span>
+                </div>
+                <h1 class="name-title display-font">
+                    Hi, I'm <span class="gradient-text">Jothiga</span>
+                </h1>
+                <div class="title-line">
+                    <span>I build</span>
+                    <span class="dynamic-text">amazing websites</span>
+                </div>
+                <p class="intro-desc">
+                    A passionate Full-Stack Developer & UI/UX Designer crafting digital
+                    experiences that blend beautiful design with powerful functionality.
+                </p>
+                <div class="action-buttons">
+                    <a href="#portfolio" class="primary-btn large-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                        </svg>
+                        View My Work
+                    </a>
+                    <a href="#connect" class="secondary-btn large-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                            <path d="m21.854 2.147-10.94 10.939"></path>
+                        </svg>
+                        Let's Talk
+                    </a>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <div class="stat-value">50+</div>
+                        <div class="stat-label">Projects Done</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">30+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#profile" class="scroll-hint">
+            <span>Scroll Down</span>
+            <div class="scroll-line"></div>
+        </a>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile section-spacing">
+        <div class="profile-bg"></div>
+        <div class="custom-container position-relative" style="z-index: 10;">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="profile-pic-wrapper">
+                        <div class="profile-pic">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop&crop=face" alt="Jothiga">
+                        </div>
+                        <div class="profile-border"></div>
+                        <div class="profile-dots"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="profile-info">
+                        <p class="section-tag">About Me</p>
+                        <h2 class="section-heading display-font">
+                            Turning ideas into <span class="gradient-text">digital reality</span>
+                        </h2>
+                        <p class="profile-para">
+                            I'm a passionate Full-Stack Developer with over 5 years of experience
+                            building web applications. I specialize in React, TypeScript, and modern
+                            CSS frameworks to create beautiful, responsive interfaces that users love.
+                        </p>
+                        <p class="profile-para">
+                            My approach combines technical expertise with creative problem-solving.
+                            I believe in writing clean, maintainable code and creating intuitive
+                            user experiences that drive business results.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a href="#connect" class="primary-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 15V3"></path>
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <path d="m7 10 5 5 5-5"></path>
+                                </svg>
+                                Download CV
+                            </a>
+                            <a href="#portfolio" class="secondary-btn">
+                                View Projects
+                            </a>
+                        </div>
+                        <div class="profile-metrics">
+                            <div class="metric-item">
+                                <div class="metric-value">50+</div>
+                                <div class="metric-label">Projects</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">5+</div>
+                                <div class="metric-label">Years</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">30+</div>
+                                <div class="metric-label">Clients</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-spacing alternate-bg">
+        <div class="custom-container">
+            <div class="section-intro">
+                <p class="section-tag">What I Do</p>
+                <h2 class="section-heading display-font">
+                    Services I <span class="gradient-text">Offer</span>
+                </h2>
+                <p class="section-summary">
+                    I provide comprehensive digital solutions to help businesses
+                    grow and succeed in the digital landscape.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card service-tile lift-hover">
+                        <div class="service-symbol">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m18 16 4-4-4-4"></path>
+                                <path d="m6 8-4 4 4 4"></path>
+                                <path d="m14.5 4-5 16"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-name">Web Development</h3>
+                        <p class="service-detail">
+                            Building fast, scalable, and secure web applications using
+                            modern technologies like React, Next.js, and Node.js.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card service-tile lift-hover">
+                        <div class="service-symbol">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"></path>
+                                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="service-name">UI/UX Design</h3>
+                        <p class="service-detail">
+                            Creating intuitive and visually stunning interfaces that
+                            provide exceptional user experiences and drive engagement.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card service-tile lift-hover">
+                        <div class="service-symbol">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                <path d="M12 18h.01"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-name">Mobile Development</h3>
+                        <p class="service-detail">
+                            Developing cross-platform mobile applications using
+                            React Native for seamless iOS and Android experiences.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card service-tile lift-hover">
+                        <div class="service-symbol">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                            <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                            <path d="M3 12A9 3 0 0 0 21 12"></path>
+                        </svg>
+                        </div>
+                        <h3 class="service-name">Backend Development</h3>
+                        <p class="service-detail">
+                            Building robust APIs and server-side applications with
+                            Node.js, Python, and cloud infrastructure.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card service-tile lift-hover">
+                        <div class="service-symbol">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m21 21-4.34-4.34"></path>
+                                <circle cx="11" cy="11" r="8"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="service-name">SEO Optimization</h3>
+                        <p class="service-detail">
+                            Improving website visibility and search rankings through
+                            technical SEO and performance optimization.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card service-tile lift-hover">
+                        <div class="service-symbol">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"></path>
+                                <path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"></path>
+                                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-name">Consulting</h3>
+                        <p class="service-detail">
+                            Providing expert guidance on technology choices,
+                            architecture decisions, and digital transformation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise section-spacing">
+        <div class="expertise-bg"></div>
+        <div class="custom-container position-relative" style="z-index: 10;">
+            <div class="section-intro">
+                <p class="section-tag">My Expertise</p>
+                <h2 class="section-heading display-font">
+                    Skills & <span class="gradient-text">Technologies</span>
+                </h2>
+                <p class="section-summary">
+                    A comprehensive toolkit refined through years of hands-on experience
+                    building modern web applications.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card skill-group lift-hover">
+                        <h3 class="skill-type">Frontend</h3>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">React / Next.js</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">TypeScript</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">Tailwind CSS</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">Vue.js</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card skill-group lift-hover">
+                        <h3 class="skill-type">Backend</h3>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">Node.js</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">Python</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">PostgreSQL</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">GraphQL</span>
+                                <span class="skill-level">82%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 82%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card skill-group lift-hover">
+                        <h3 class="skill-type">Tools & DevOps</h3>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">Git / GitHub</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">Docker</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">AWS / Vercel</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry">
+                            <div class="skill-meta">
+                                <span class="skill-label">Figma</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-list">
+                <div class="tech-element">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="1"></circle>
+                        <path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"></path>
+                        <path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z"></path>
+                    </svg>
+                    <span>React</span>
+                </div>
+                <div class="tech-element">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
+                        <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+                        <path d="M10 12.5 8 15l2 2.5"></path>
+                        <path d="m14 12.5 2 2.5-2 2.5"></path>
+                    </svg>
+                    <span>TypeScript</span>
+                </div>
+                <div class="tech-element">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
+                        <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
+                        <line x1="6" x2="6.01" y1="6" y2="6"></line>
+                        <line x1="6" x2="6.01" y1="18" y2="18"></line>
+                    </svg>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-element">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                        <path d="M3 12A9 3 0 0 0 21 12"></path>
+                    </svg>
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="tech-element">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12.8 19.6A2 2 0 1 0 14 16H2"></path>
+                        <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"></path>
+                        <path d="M9.8 4.4A2 2 0 1 1 11 8H2"></path>
+                    </svg>
+                    <span>Tailwind</span>
+                </div>
+                <div class="tech-element">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path>
+                        <path d="m3.3 7 8.7 5 8.7-5"></path>
+                        <path d="M12 22V12"></path>
+                    </svg>
+                    <span>Docker</span>
+                </div>
+                <div class="tech-element">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                    </svg>
+                    <span>AWS</span>
+                </div>
+                <div class="tech-element">
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-spacing alternate-bg">
+        <div class="portfolio-bg"></div>
+        <div class="custom-container position-relative" style="z-index: 10;">
+            <div class="section-intro">
+                <p class="section-tag">My Portfolio</p>
+                <h2 class="section-heading display-font">
+                    Featured <span class="gradient-text">Projects</span>
+                </h2>
+                <p class="section-summary">
+                    A selection of my recent work showcasing various technologies
+                    and problem-solving approaches.
+                </p>
+            </div>
+            <div class="project-categories">
+                <button class="category-btn active">All</button>
+                <button class="category-btn">Web Apps</button>
+                <button class="category-btn">Mobile</button>
+                <button class="category-btn">Design</button>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="frosted-card project-tile lift-hover">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop" alt="E-Commerce Platform">
+                            <div class="project-cover"></div>
+                            <div class="project-actions">
+                                <a href="#" class="project-action" aria-label="View GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-action" aria-label="View Live">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <span class="project-type">Web Application</span>
+                            <h3 class="project-name">E-Commerce Platform</h3>
+                            <p class="project-summary">A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.</p>
+                            <div class="project-tech">
+                                <span class="project-tech-item">React</span>
+                                <span class="project-tech-item">Node.js</span>
+                                <span class="project-tech-item">Stripe</span>
+                                <span class="project-tech-item">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="frosted-card project-tile lift-hover">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop" alt="Task Management App">
+                            <div class="project-cover"></div>
+                            <div class="project-actions">
+                                <a href="#" class="project-action" aria-label="View GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-action" aria-label="View Live">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <span class="project-type">SaaS Product</span>
+                            <h3 class="project-name">Task Management App</h3>
+                            <p class="project-summary">Collaborative project management tool with real-time updates and team workflows.</p>
+                            <div class="project-tech">
+                                <span class="project-tech-item">Next.js</span>
+                                <span class="project-tech-item">TypeScript</span>
+                                <span class="project-tech-item">Prisma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="frosted-card project-tile lift-hover">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop" alt="AI Content Generator">
+                            <div class="project-cover"></div>
+                            <div class="project-actions">
+                                <a href="#" class="project-action" aria-label="View GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-action" aria-label="View Live">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <span class="project-type">AI Tool</span>
+                            <h3 class="project-name">AI Content Generator</h3>
+                            <p class="project-summary">An AI-powered application for generating marketing copy and social media content.</p>
+                            <div class="project-tech">
+                                <span class="project-tech-item">React</span>
+                                <span class="project-tech-item">OpenAI</span>
+                                <span class="project-tech-item">Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="frosted-card project-tile lift-hover">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" alt="Finance Dashboard">
+                            <div class="project-cover"></div>
+                            <div class="project-actions">
+                                <a href="#" class="project-action" aria-label="View GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-action" aria-label="View Live">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <span class="project-type">Dashboard</span>
+                            <h3 class="project-name">Finance Dashboard</h3>
+                            <p class="project-summary">Interactive financial analytics dashboard with data visualization and reporting.</p>
+                            <div class="project-tech">
+                                <span class="project-tech-item">React</span>
+                                <span class="project-tech-item">D3.js</span>
+                                <span class="project-tech-item">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="secondary-btn large-btn">
+                    View All Projects
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section-spacing">
+        <div class="custom-container">
+            <div class="section-intro">
+                <p class="section-tag">Testimonials</p>
+                <h2 class="section-heading display-font">
+                    What Clients <span class="gradient-text">Say</span>
+                </h2>
+                <p class="section-summary">
+                    Don't just take my word for it. Here's what clients have to say
+                    about working with me.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card review-card lift-hover">
+                        <span class="review-quote">"</span>
+                        <div class="review-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                        </div>
+                        <p class="review-text">
+                            "Jothiga delivered an exceptional e-commerce platform that exceeded our expectations.
+                            His attention to detail and technical expertise are outstanding."
+                        </p>
+                        <div class="review-person">
+                            <div class="review-photo">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="Sarah Johnson">
+                            </div>
+                            <div class="review-details">
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card review-card lift-hover">
+                        <span class="review-quote">"</span>
+                        <div class="review-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                        </div>
+                        <p class="review-text">
+                            "Working with Jothiga was a pleasure. He understood our vision perfectly and
+                            delivered a beautiful, functional website on time and within budget."
+                        </p>
+                        <div class="review-person">
+                            <div class="review-photo">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Michael Chen">
+                            </div>
+                            <div class="review-details">
+                                <h4>Michael Chen</h4>
+                                <p>Founder, DesignHub</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="frosted-card review-card lift-hover">
+                        <span class="review-quote">"</span>
+                        <div class="review-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fbbf24">
+                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                            </svg>
+                        </div>
+                        <p class="review-text">
+                            "Jothiga's expertise in both design and development made him the perfect choice
+                            for our project. The results speak for themselves!"
+                        </p>
+                        <div class="review-person">
+                            <div class="review-photo">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Emily Davis">
+                            </div>
+                            <div class="review-details">
+                                <h4>Emily Davis</h4>
+                                <p>Marketing Director, GrowthCo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="connect section-spacing alternate-bg">
+        <div class="connect-bg"></div>
+        <div class="custom-container position-relative" style="z-index: 10;">
+            <div class="section-intro">
+                <p class="section-tag">Get In Touch</p>
+                <h2 class="section-heading display-font">
+                    Let's Work <span class="gradient-text">Together</span>
+                </h2>
+                <p class="section-summary">
+                    Have a project in mind? Let's discuss how we can bring your
+                    ideas to life.
+                </p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-symbol">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-type">Email Me</p>
+                                <p class="contact-info">
+                                    <a href="mailto:hello@jothiga.com">hello@jothiga.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-symbol">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-type">Call Me</p>
+                                <p class="contact-info">
+                                    <a href="tel:+919876543210">+91 98765 43210</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-symbol">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-type">Location</p>
+                                <p class="contact-info">Coimbatore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <form class="frosted-card message-form">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="name" class="input-label">Your Name</label>
+                                <input type="text" id="name" name="name" class="text-input" placeholder="John Doe" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="email" class="input-label">Your Email</label>
+                                <input type="email" id="email" name="email" class="text-input" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="subject" class="input-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="text-input" placeholder="Project Inquiry" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="message" class="input-label">Your Message</label>
+                            <textarea id="message" name="message" class="text-area" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="primary-btn large-btn" style="width: 100%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                <path d="m21.854 2.147-10.94 10.939"></path>
+                            </svg>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="custom-container">
+            <div class="footer-main">
+                <div class="footer-branding">
+                    <a href="#" class="footer-brand">J<span>.</span></a>
+                    <p class="footer-summary">
+                        Creating digital experiences that make a difference. Let's build something amazing together.
+                    </p>
+                    <div class="footer-links">
+                        <a href="#" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect width="4" height="12" x="2" y="9"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Dribbble">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
+                                <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
+                                <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#profile">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#expertise">Skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#connect">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="footer-nav">
+                        <li><a href="mailto:hello@jothiga.com">hello@jothiga.com</a></li>
+                        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+                        <li>Coimbatore</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-base">
+                <p class="footer-rights">
+                    Made with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer-love">
+                        <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                    </svg> by Jothiga © 2024
+                </p>
+                <p class="footer-rights">All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
